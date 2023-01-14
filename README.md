@@ -24,7 +24,7 @@ This function is achieved by the program called ’SimulatorSocket’. Some assu
 The message format will look like this:
 Product ID::Views::Length of stay::Whether to collect::Number of pieces purchased The following are some examples of raw data:
 
-`goodsID-68::1::2.3782935::-1::0
+goodsID-68::1::2.3782935::-1::0
 
 goodsID-150::1::1.1446879::-1::1
 
@@ -34,18 +34,18 @@ goodsID-179::2::9.766784::0::0
 
 goodsID-191::2::8.431307::0::0
 
-goodsID-132::4::9.423632::0::2`
+goodsID-132::4::9.423632::0::2
 
 ### Connect to Spark Streaming
 By giving each value in the raw data a weight, we can calculate the attention level of products. Some examples are shown below:
 
-`Product ID: goodsID-47 Attention rate: 14.48421162
+Product ID: goodsID-47 Attention rate: 14.48421162
 
 Product ID: goodsID-19 Attention rate: 9.2231634
 
 Product ID: goodsID-130 Attention rate: 8.758230619999999
 
-Product ID: goodsID-48 Attention rate: 8.387603559999999 ...`
+Product ID: goodsID-48 Attention rate: 8.387603559999999 ...
 
 ### Store data into Hadoop
 The function of storing calculated data in Hadoop is achieved by the program FileWrite which simply writes calculated results to Hadoop file system.
