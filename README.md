@@ -1,12 +1,14 @@
 # Spark-Streaming-based-real-time-calculation-of-product-attention-level
 The target of this project is to analyze which products have received the most attention during this period based on how many times a product has been clicked, how long the user has stayed, and whether the user has favored the product.
 
+## Author
+Zhenghong Xiao xzhe@kth.se
+
+Ayman Osmam Abubaker aymanoa@kth.se 
+
+Disen Ling disen@kth.se 
 ## Project Description
-Spark-Streaming based real-time calculation of product attention level
-Ayman Osmam Abubaker Disen Ling Zhenghong Xiao
-aymanoa@kth.se
-disen@kth.se xzhe@kth.se
-October 30, 2022
+
 An e-commerce company can analyze which products have received the most atten- tion during this period based on how many times a product has been clicked, how long the user has stayed, and whether the user has favorited the product. It is also possible to recommend products to users based on this data. Spark Streaming will be used to build a real-time data processing system to calculate which products are currently the most popular on the e-commerce platform. And finally the data will be stored in a HDFS.
 ## Tools
 Streaming processing models will be applied in this project. Therefore, the following tools will be used in this project:
