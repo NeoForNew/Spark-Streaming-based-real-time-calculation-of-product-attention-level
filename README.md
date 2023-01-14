@@ -24,9 +24,9 @@ This function is achieved by the program called ’SimulatorSocket’. Some assu
 The message format will look like this:
 Product ID::Views::Length of stay::Whether to collect::Number of pieces purchased The following are some examples of raw data:
 
-goodsID-68::1::2.3782935::-1::0
+goodsID-68::1::2.3782935::1::0
 
-goodsID-150::1::1.1446879::-1::1
+goodsID-150::1::1.1446879::1::1
 
 goodsID-143::1::3.3518002::0::0
 
