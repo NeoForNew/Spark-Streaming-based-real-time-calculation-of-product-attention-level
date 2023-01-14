@@ -17,7 +17,8 @@ Streaming processing models will be applied in this project. Therefore, the foll
 3. Compilation environment: Java
 ## Program
 ### Generate Streaming Data
-This function is achieved by the program called ’SimulatorSocket’. Some assump- tions are made about the simulated goods data and for a single message:
+
+This function is achieved by the program called [SimulatorSocket.java](https://github.com/NeoForNew/Spark-Streaming-based-real-time-calculation-of-product-attention-level/blob/main/src/com/shiyanlou/simulator/SimulatorSocket.java). Some assumptions are made about the simulated goods data and for a single message:
 
 • There are 200 items in total.
 
@@ -45,7 +46,8 @@ goodsID-191::2::8.431307::0::0
 goodsID-132::4::9.423632::0::2
 
 ### Connect to Spark Streaming
-By giving each value in the raw data a weight, we can calculate the attention level of products. Some examples are shown below:
+
+This function is achieved by the prgram called(StreamingGood.java)[https://github.com/NeoForNew/Spark-Streaming-based-real-time-calculation-of-product-attention-level/blob/main/src/com/shiyanlou/simulator/StreamingGoods.java]. By giving each value in the raw data a weight, we can calculate the attention level of products. Some examples are shown below:
 
 Product ID: goodsID-47 Attention rate: 14.48421162
 
@@ -56,5 +58,5 @@ Product ID: goodsID-130 Attention rate: 8.758230619999999
 Product ID: goodsID-48 Attention rate: 8.387603559999999 ...
 
 ### Store data into Hadoop
-The function of storing calculated data in Hadoop is achieved by the program FileWrite which simply writes calculated results to Hadoop file system.
+The function of storing calculated data in Hadoop is achieved by the program [FileWrite](https://github.com/NeoForNew/Spark-Streaming-based-real-time-calculation-of-product-attention-level/blob/main/src/com/shiyanlou/simulator/FileWrite.java) which simply writes calculated results to Hadoop file system.
 ![image](https://github.com/NeoForNew/Spark-Streaming-based-real-time-calculation-of-product-attention-level/blob/main/pic/result.jpg)
