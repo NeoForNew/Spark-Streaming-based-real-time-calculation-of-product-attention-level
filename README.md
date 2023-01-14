@@ -18,11 +18,17 @@ Streaming processing models will be applied in this project. Therefore, the foll
 ## Program
 ### Generate Streaming Data
 This function is achieved by the program called ’SimulatorSocket’. Some assump- tions are made about the simulated goods data and for a single message:
+
 • There are 200 items in total.
+
 • The number of times the user views a given item is at most 5.
+
 • The time spent by the user viewing a given item is at most 10.
+
 • If the user favorites an item, we assign +1 and if they give a poor rating we assign -1. Otherwise 0.
-• The user is less likely to purchase any given item. 1
+
+• The user is less likely to purchase any given item. 
+
 The message format will look like this:
 Product ID::Views::Length of stay::Whether to collect::Number of pieces purchased The following are some examples of raw data:
 
