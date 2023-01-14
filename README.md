@@ -1,7 +1,7 @@
 # Spark-Streaming-based-real-time-calculation-of-product-attention-level
 The target of this project is to analyze which products have received the most attention during this period based on how many times a product has been clicked, how long the user has stayed, and whether the user has favored the product.
 
-## Author
+## Authors
 Zhenghong Xiao xzhe@kth.se
 
 Ayman Osmam Abubaker aymanoa@kth.se 
