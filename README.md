@@ -59,4 +59,5 @@ Product ID: goodsID-48 Attention rate: 8.387603559999999 ...
 
 ### Store data into Hadoop
 The function of storing calculated data in Hadoop is achieved by the program [FileWrite](https://github.com/NeoForNew/Spark-Streaming-based-real-time-calculation-of-product-attention-level/blob/main/src/com/shiyanlou/simulator/FileWrite.java) which simply writes calculated results to Hadoop file system.
+
 ![image](https://github.com/NeoForNew/Spark-Streaming-based-real-time-calculation-of-product-attention-level/blob/main/pic/result.jpg)
