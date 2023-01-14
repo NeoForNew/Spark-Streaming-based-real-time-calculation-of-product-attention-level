@@ -18,7 +18,7 @@ Streaming processing models will be applied in this project. Therefore, the foll
 ## Program
 ### Generate Streaming Data
 
-This function is achieved by the program called [SimulatorSocket.java](https://github.com/NeoForNew/Spark-Streaming-based-real-time-calculation-of-product-attention-level/blob/main/src/com/shiyanlou/simulator/SimulatorSocket.java). Some assumptions are made about the simulated goods data and for a single message:
+This function is achieved by the program called (SimulatorSocket.java)[https://github.com/NeoForNew/Spark-Streaming-based-real-time-calculation-of-product-attention-level/blob/main/src/com/shiyanlou/simulator/SimulatorSocket.java]. Some assumptions are made about the simulated goods data and for a single message:
 
 • There are 200 items in total.
 
